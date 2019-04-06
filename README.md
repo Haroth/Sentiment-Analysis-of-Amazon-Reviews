@@ -2,7 +2,7 @@
 
 ## General info
 The project concerns the classification of positive and negative reviews of Amazon users. Dataset contains 4 million reviews with same number of positive and negative examples. <br> 
-For this task I implemented two models, where each of them are using word embeddings (downloaded and my own):
+For this task I implemented two models, each of them are using word embeddings (downloaded and my own):
 * MLP average vector model - words embedding vectors are averaged across the review and then fed to MLP network.
 * LSTM model - contains embedding layer, 1 layer of LSTM and 2 Dense layers.
 
